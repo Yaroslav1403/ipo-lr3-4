@@ -5,6 +5,7 @@ x = float(input("Введите значение x:"))
 if x < 0:
     result = x ** 2  #условие f(x) = x² при x < 0
 else:
-    result = math.sqrt(x)  #условие f(x) = √x при x ≥ 0
+#условие f(x) = √x при x ≥ 0    
+    result = math.sqrt(x) 
 #Вывод результата
 print(f"f({x}) = {result}")
