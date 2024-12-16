@@ -10,4 +10,4 @@ else:
 #Условие f(x) = √x при x ≥ 0    
     result = math.sqrt(x) 
 #Вывод результата
-print(f"f({x}) = {result}")
+print(f"f({x}) = {result}") 
